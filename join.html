@@ -9,7 +9,7 @@
     <script src="https://kit.fontawesome.com/ed17b3b742.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <script defer src="js/main.js"></script>
-    <script defer src="js/join.js"></script>
+    <script defer src="js/form_validation.js"></script>
 </head>
 
 <body>
@@ -59,7 +59,7 @@
         <div class="sub_visual"></div>
         <div class="inner">
             <h1>JOIN<span>회원가입</span></h1>
-            <form action="index.html" method="post">
+            <form action="result.html" method="post" id="member">
                 <fieldset>
                     <legend class="hidden">회원가입양식폼</legend>
                     <h2><label for="terms">Terms & Policy</label></h2>
@@ -79,7 +79,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row"><label for="pwd">PASSWORD</label></th>
+                            <th scope="row"><label for="pwd1">PASSWORD</label></th>
                             <td>
                                 <input type="password" name="pwd1" id="pwd1" placeholder="password를 입력하세요" required>
                             </td>
@@ -128,20 +128,36 @@
                             <th scope="row"><label for="email">E-MAIL</label></th>
                             <td>
                                 <input type="email" name="email" id="email" placeholder="이메일을 입력해주세요">
-                                <select name="company" id="company">
+                                <!-- <select name="company" id="company">
                                     <option value="">이메일을 선택해주세요</option>
                                     <option value="naver">@naver.com</option>
                                     <option value="nate">@nate.com</option>
                                     <option value="daum">@daum.net</option>
+                                </select> -->
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">
+                                <label for="edu">Education</label>
+                            </th>
+                            <td>
+                                <select name="edu" id="edu">
+                                    <option value="">최종학력을 선택해주세요</option>
+                                    <option value="elementary">초등학교 졸업</option>
+                                    <option value="middleschool">중학교졸업</option>
+                                    <option value="high school">고등학교졸업</option>
+                                    <option value="college">대학교졸업</option>
+
                                 </select>
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">
-                                <label for="aboutMe">ABOUT ME</label>
+                                <label for="comments">ABOUT ME</label>
                             </th>
                             <td>
-                                <textarea name="aboutMe" id="aboutMe" cols="30" rows="10" placeholder="자기소개"></textarea>
+                                <textarea name="comments" id="comments" cols="30" rows="10"
+                                    placeholder="자기소개"></textarea>
                             </td>
                         </tr>
                         <tr>

@@ -1333,13 +1333,13 @@ table {
   margin-right: 30px;
 }
 .join .inner table tr td select {
-  width: 20%;
+  width: 30%;
   height: 30px;
   border: 1px solid #bbb;
   background: #eeffff;
   padding-left: 20px;
 }
-.join .inner table tr td textarea#aboutMe {
+.join .inner table tr td textarea#comments {
   width: 80%;
   height: 100px;
   border: 1px solid #bbb;
@@ -1375,7 +1375,7 @@ table {
     width: 30%;
     padding-left: 5px;
   }
-  .join .inner table tr td textarea#aboutMe {
+  .join .inner table tr td textarea#comments {
     width: 90%;
   }
   .join .inner table tr td .hobby_txt,
@@ -1405,7 +1405,7 @@ table {
     width: 100%;
     margin-top: 10px;
   }
-  .join .inner table tr td textarea#aboutMe {
+  .join .inner table tr td textarea#comments {
     width: 100%;
   }
 }

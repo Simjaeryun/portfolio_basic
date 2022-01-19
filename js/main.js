@@ -9,10 +9,10 @@ btnCall.onclick = (e) => {
 
 gnb = document.querySelectorAll("#gnb > li");
 
-console.log(gnb)
-for (const el of gnb) {
-    el.addEventListener("mouseenter", e => {
-        const sub = e.currentTarget.querySelector(".gnb_sub");
-        sub.style.display = "block"
-    })
-}
+// console.log(gnb)
+// for (const el of gnb) {
+//     el.addEventListener("mouseenter", e => {
+//         const sub = e.currentTarget.querySelector(".gnb_sub");
+//         sub.style.display = "block"
+//     })
+// }

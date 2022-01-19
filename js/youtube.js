@@ -1,9 +1,4 @@
-// AIzaSyDTqpCGvBZz_l-UfWUkSY-UWyzxgO58z2I
-// https://www.googleapis.com/youtube/v3/playlistItems
 
-// part : 'snippet'
-// maxResult : 5
-// PLsGbxh85lJXJyWJZ07m7tRiDPqQJNAlZL
 
 const vidList = document.querySelector(".vidList");
 const key = "AIzaSyDTqpCGvBZz_l-UfWUkSY-UWyzxgO58z2I";
